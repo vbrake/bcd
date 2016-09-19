@@ -10,8 +10,8 @@ nome varchar(128) primary key
 );
 
 CREATE table curso (
-  campus varchar(128)
-  curriculo ???
+  campus varchar(128),
+  curriculo ???,
   numero char(10) primary key,
   CHmin int,
   CHmax int,
@@ -21,7 +21,7 @@ CREATE table curso (
 );
 
 CREATE table matricula (
-  aluno char(11).
+  aluno char(11),
   curso char(10),
   numero char(10) primary key,
   constraint fk_matricula_aluno_aluno_documento foreign key (aluno) references aluno(documento),
