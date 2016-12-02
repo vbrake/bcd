@@ -1,4 +1,5 @@
 //instalar com 'npm install json-sql' ou adicionar ao package.json
+var jsonSql = require('json-sql')();
 
 //exemplo de sql build
 var sql = jsonSql.build({
