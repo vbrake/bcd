@@ -7,4 +7,4 @@ var sql = jsonSql.build({
 });
 
 sql.query
-// select * from "table";
+// select * from "filtro_disciplinas_horario";
