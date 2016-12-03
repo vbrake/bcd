@@ -1,7 +1,8 @@
 //instalar com 'npm install json-sql' ou adicionar ao package.json
 var jsonSql = require('json-sql')();
 
-//exemplo de sql build
+////////////////////////
+//EXEMPLO DE SQL SELECT
 var sql = jsonSql.build({
     type: 'select',
     table: 'filtro_disciplinas_horario'
@@ -10,7 +11,8 @@ var sql = jsonSql.build({
 sql.query
 // select * from "filtro_disciplinas_horario";
 
-//exemplo de sql insert
+////////////////////////
+//EXEMPLO DE SQL INSERT
 var sql = jsonSql.build({
     type: 'insert',
     table: 'users',
